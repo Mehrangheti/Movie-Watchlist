@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(8.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    background-size: cover;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    
+}
+a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+h3{
+    padding-top: 2.5rem;
+}
+.search{
+    margin: auto;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    padding-top: 7rem;
+    
+}
+.Movie-detail{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.Title-rat{
+    display: flex;
+}
+.rating{
+    margin-left: 30px;
+    display: flex;
+}
+.rating p{
+    margin-top: 25px;
+}
+.rating i{
+    margin-top: 25px;
+    margin-right: 4px;
+}
+.watch i{
+    margin-top: 18px;
+    margin-right: 4px;
+}
+.watch p{
+    margin-top: 18px;
+}
+.icon-1{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+.p{
+    font-size: 20px;
+    color: rgb(175, 172, 172);
+    margin-top: -5px;
+}
+.sec{
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.a{
+    color: black;
+}
+.img-div img{
+    width: 150px;
+    height: 200px;
+}
+li{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.new-page{
+    font-display: flex;
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -145px;
+}
+.watch{
+    display: flex;
+    cursor: pointer;
+}
+
+.Movie-D{
+    margin-left: 20px;
+}
+.search input{
+    width: 60%;
+  outline-style: none;
+   border-style: none;
+   padding-left: 6px;
+   border: 1px solid gray;
+   border-left: none;
+   font-size: 16px;
+}
+.btn-search{
+    width: 80px;
+}
+h1{
+    font-size: 3em;
+    color: white;
+}
+.icon{
+    background-color: white;
+    height: 27px;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-top: 8px;
+    color: gray;
+    padding-left: 4px;
+}
+.readMore{
+    color: blue;
+}
+
+@media screen and (max-width: 800px) {
+    .header{
+       width: 100%;
+    }
+    h1{
+        font-size: 35px;
+        margin-top: 45px;
+    }
+    .sec{
+        margin-top: 200px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .img-div img{
+        height: 220px;
+        width:130px ;
+    }
+    .Movie-detail{
+        width: 90%;
+    }
+    .details{
+        display: flex;
+        margin-left: 0px;
+        font-size: 13px;
+        
+    }
+
+}
